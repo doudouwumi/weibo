@@ -12,17 +12,24 @@ use Carbon\Carbon;
 
 class PasswordController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('throttle:2,1', [
+            'only' => ['showLinkRequestForm']
+        ]);
+    }
+
     public function showLinkRequestForm()
     {
         return view('auth.passwords.email');
     }
-
 
     public function sendResetLinkEmail(Request $request)
     {
         // 1. 验证邮箱
         $request->validate(['email' => 'required|email']);
         $email = $request->email;
+
 
         // 2. 获取对应用户
         $user = User::where("email", $email)->first();
@@ -43,12 +50,15 @@ class PasswordController extends Controller
             'created_at' => new Carbon,
         ]);
 
-
-        echo 111;exit();
         // 6. 将 Token 链接发送给用户
         Mail::send('emails.reset_link', compact('token'), function ($message) use ($email) {
             $message->to($email)->subject("忘记密码");
         });
+
+
+
+
+
 
         session()->flash('success', '重置邮件发送成功，请查收');
         return redirect()->back();
