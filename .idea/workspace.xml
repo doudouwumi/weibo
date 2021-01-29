@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="df535515-7787-4339-a439-98e783af3c7b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PasswordController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/eamils/confirm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/confirm.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/eamils/reset_link.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/reset_link.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_27_100806_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_27_100806_create_password_resets_table.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +188,9 @@
       <workItem from="1611543737051" duration="15666000" />
       <workItem from="1611719963122" duration="2256000" />
       <workItem from="1611728440082" duration="12598000" />
-      <workItem from="1611803092116" duration="5101000" />
+      <workItem from="1611803092116" duration="6401000" />
+      <workItem from="1611823913688" duration="2028000" />
+      <workItem from="1611888208165" duration="5130000" />
     </task>
     <servers />
   </component>
