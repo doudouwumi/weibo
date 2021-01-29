@@ -1,0 +1,137 @@
+[33mcommit 6697629fa2889a3556a13b1b17e014ca93354e4f[m[33m ([m[1;36mHEAD -> [m[1;32muser-statuses[m[33m)[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Fri Jan 29 07:09:16 2021 +0000
+
+    微博数据模型
+
+[33mcommit 8a7d75fb00961f7affe067772040ce0c97b8c394[m[33m ([m[1;32mmaster[m[33m, [m[1;32maccount-activation-password-resets[m[33m)[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Thu Jan 28 08:32:31 2021 +0000
+
+    1
+
+[33mcommit 7fee83ca6938fa561ab831392e749f71c4b8c933[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Wed Jan 27 14:02:41 2021 +0000
+
+    发送找回密码链接
+
+[33mcommit 8fc9e562d594d00318963cbedee4bb9bccd4bbc9[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Wed Jan 27 09:35:00 2021 +0000
+
+    ‘用户激活’
+
+[33mcommit 01eadba03e0ec6276088b57f01d75ee11e077caa[m[33m ([m[1;31morigin/master[m[33m, [m[1;32muser-crud[m[33m)[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Mon Jan 25 08:57:11 2021 +0000
+
+    管理员可删除用户
+
+[33mcommit 607bd0ee3354934e34041ff3fa503789690255b4[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Mon Jan 25 07:29:41 2021 +0000
+
+    查看用户列表
+
+[33mcommit 579ddab39afaf67e26c5514b53c769f097e8340c[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Sun Jan 24 14:57:52 2021 +0000
+
+    访问策略
+
+[33mcommit 20a3b7aa3329e3534db2def6c65053cf5af33421[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Fri Jan 22 15:13:32 2021 +0000
+
+    更改用户资料
+
+[33mcommit 721ca0294d52f709cb2a05f27645c3dac9346342[m[33m ([m[1;32mlogin-logout[m[33m)[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Fri Jan 22 10:09:05 2021 +0000
+
+    登录登出
+
+[33mcommit 47bb8724c6938cd5f79c1eddc49aff28c4c979bb[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Fri Jan 22 09:49:06 2021 +0000
+
+    用户退出登录
+
+[33mcommit 26cade87b3dcc9b191646dbf4952417418311eb6[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Fri Jan 22 09:45:21 2021 +0000
+
+    登录后导航逻辑
+
+[33mcommit 953917bd65a5e9e56d50083989604db2d706036f[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Fri Jan 22 08:20:34 2021 +0000
+
+    创建会话
+
+[33mcommit 00c215a42242dd004800b17cc8bf3961aacceb20[m[33m ([m[1;32msign-up[m[33m)[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Fri Jan 22 07:07:47 2021 +0000
+
+    完成用户注册功能
+
+[33mcommit ddc02f21d596f4516299e6db63c7ea5cc2382885[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Fri Jan 22 05:24:02 2021 +0000
+
+    增加 csrf 验证
+
+[33mcommit 512d476033b4c8d09d376b8b5e13429fbfcd19c1[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Fri Jan 22 05:08:32 2021 +0000
+
+    用户注册表单
+
+[33mcommit bef366f96e0f8f2fb88ad052c2f9ceebcb8db58c[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Fri Jan 22 04:52:24 2021 +0000
+
+    用户显示页面
+
+[33mcommit f2ea590f8c2feb37786c8259d29a6a9cb0fe1edd[m[33m ([m[1;32mmodeling-users[m[33m, [m[1;32mfilling-layout-style[m[33m)[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Thu Jan 21 06:16:12 2021 +0000
+
+    ‘用户注册页面’
+
+[33mcommit 4c8bd7c791cef14e5fa5426c3373da6a2a8b809c[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Thu Jan 21 06:07:29 2021 +0000
+
+    命名路由
+
+[33mcommit 0175e873065c493c6a9418f890ef193367084860[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Thu Jan 21 05:49:39 2021 +0000
+
+    切割头部和尾部子视图
+
+[33mcommit 089b6bae3be6835a91f2d7d4a685eba07a31ef30[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Thu Jan 21 05:31:14 2021 +0000
+
+    静态文件浏览器缓存问题
+
+[33mcommit f7827da0c7831ba764ca59cd4212e5dfb1e0be5f[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Thu Jan 21 04:23:18 2021 +0000
+
+    初始化样式
+
+[33mcommit 4996ae229f2c241059898a6284ad326866b114b3[m[33m ([m[1;32mstatic-pages[m[33m)[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Mon Jan 18 15:02:19 2021 +0000
+
+    Add .editorconfig
+
+[33mcommit ba65bc012f492c2ad5389fe16802388a1a4a0b29[m
+Author: doudouwumi <doudouwumi@qq.com>
+Date:   Mon Jan 18 14:55:41 2021 +0000
+
+    Initial commit
